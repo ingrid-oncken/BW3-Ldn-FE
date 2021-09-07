@@ -1,6 +1,6 @@
 import "./App.css"
 import "bootstrap/dist/css/bootstrap.min.css"
-import LnNavbar from "./components/LnNavbar"
+import LnNavbar from "./components/Navbar/LnNavbar"
 
 function App() {
   return (
