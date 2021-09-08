@@ -7,22 +7,22 @@ const WelcomeForm = () => (
       <h1>Welcome to your professional community</h1>
     </Row> */}
     <Row>
-      <h1
-        id="welcome_h1"
-        className="d-flex d-inline-flex display-4 text-left font-weight-light"
-      >
+      <h1 className="welcome_h1 p-2 d-none d-md-block display-4 text-left font-weight-light">
+        Welcome to your professional community
+      </h1>
+      <h1 className="welcome_h1 d-sm-block d-md-none p-2 d-flex d-inline-flex text-left font-weight-light">
         Welcome to your professional community
       </h1>
 
       <img
         id="welcome-ilustration-desktop"
-        className="d-none d-sm-none d-md-block"
+        className="d-none d-lg-block"
         alt="Welcome
                     to your professional community"
         src="https://static-exp1.licdn.com/sc/h/dxf91zhqd2z6b0bwg85ktm5s4"
       />
       <img
-        className="welcome-ilustration-mobile d-block d-sm-block d-sm-block d-md-none"
+        className="welcome-ilustration-mobile d-block d-lg-none"
         alt="Welcome to your professional community"
         src="https://static-exp1.licdn.com/sc/h/d58zfe6h3ycgq5l1ccjpkrtdn"
       ></img>
@@ -30,7 +30,7 @@ const WelcomeForm = () => (
     <Row>
       <div id="welcome-div-btn" className="d-grid gap-6 btn-group-vertical">
         <Button
-          className="welcome-btns mt-4 py-3 rounded-lg border border-black-50 bg-transparent text-left"
+          className="welcome-btns mt-4 py-3 rounded-lg border border-black-50 bg-white text-left"
           variant="outline-secondary"
           size="lg"
         >
@@ -50,7 +50,7 @@ const WelcomeForm = () => (
           </a>
         </Button>
         <Button
-          className="welcome-btns mt-3 py-3 rounded-lg border border-black-50 bg-transparent text-left"
+          className="welcome-btns mt-3 py-3 rounded-lg border border-black-50 bg-white text-left"
           variant="outline-secondary"
           size="lg"
         >
@@ -70,7 +70,7 @@ const WelcomeForm = () => (
           </a>
         </Button>
         <Button
-          className="welcome-btns mt-3 py-3 rounded-lg border borblack-50 bg-transparent text-left"
+          className="welcome-btns mt-3 py-3 rounded-lg border borblack-50 bg-white text-left"
           variant="outline-secondary"
           size="lg"
         >

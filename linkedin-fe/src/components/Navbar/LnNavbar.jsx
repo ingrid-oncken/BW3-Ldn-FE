@@ -3,7 +3,7 @@ import "../../index.css"
 
 const LnNavbar = () => (
   <Container className="px-0">
-    <Navbar bg="transparent" className="px-0 pt-2 pb-3">
+    <Navbar bg="transparent" className="px-2 pt-2 pb-3">
       <Navbar.Brand href="#home">
         <img
           alt="LinkedIn logo"
