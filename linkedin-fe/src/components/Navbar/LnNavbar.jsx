@@ -1,16 +1,15 @@
 import { Container, Navbar, Button } from "react-bootstrap"
-import LinkdInLogo from "./LI-Logo.png"
 import "../../index.css"
 
 const LnNavbar = () => (
-  <Container>
-    <Navbar bg="transparent">
+  <Container className="px-0">
+    <Navbar bg="transparent" className="px-0 pt-2 pb-3">
       <Navbar.Brand href="#home">
         <img
           alt="LinkedIn logo"
-          src={LinkdInLogo}
+          src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
           width="120"
-          height="30"
+          height="60rem"
           className="d-inline-block align-top"
         />
       </Navbar.Brand>

@@ -1,12 +1,13 @@
 import "./App.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 import LnNavbar from "./components/Navbar/LnNavbar"
+import WelcomeForm from "./components/Welcome/WelcomeForm"
 
 function App() {
   return (
     <div className="App">
       <LnNavbar />
-      <h1>Hello World</h1>
+      <WelcomeForm />
     </div>
   )
 }

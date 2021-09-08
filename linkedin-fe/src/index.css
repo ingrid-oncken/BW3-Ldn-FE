@@ -44,3 +44,31 @@ code {
   box-sizing: border-box;
   box-shadow: inset 0 0 0 2px #0a66c2;
 }
+
+.nav-logo {
+  color: #0a66c2;
+}
+
+#welcome_h1 {
+  color: #8f5849;
+  font-weight: 200;
+  width: 55%;
+}
+
+#welcome-ilustration-desktop {
+  z-index: -1;
+  width: 700px;
+  position: absolute;
+  right: 250px;
+}
+
+#welcome-div-btn {
+  width: 40%;
+}
+
+.welcome-btns:hover {
+  box-shadow: 0px 4px 6px rgb(0 0 0 / 15%), 0px 0px 2px rgb(0 0 0 / 15%);
+}
+.welcome-btns {
+  color: rgba(0, 0, 0, 0.9);
+}
