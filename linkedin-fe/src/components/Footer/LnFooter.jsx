@@ -17,7 +17,7 @@ const LnFooter = () => (
           <Col className="d-none d-lg-block"></Col>
           <Col className="pl-0 mt-5">
             <h6 className="font-weight-bold">General</h6>
-            <ul className="welcome-footer-ul-vertical pl-0">
+            <ul className="welcome-footer-ul pl-0">
               <li className="welcome-footer-li">
                 <a href="/">Sign Up</a>
               </li>
@@ -137,35 +137,72 @@ const LnFooter = () => (
         </Row>
       </Container>
     </div>
-    <ul className="container welcome-footer-ul-horizontal list-group list-group-horizontal-md">
-      <li class="list-group-item pl-0">
+    <ul
+      id="welcome-footer-ul-horizontal"
+      className="container list-group list-group-horizontal-md pr-0 d-flex justify-content-between"
+    >
+      <li className="list-group-item pl-0 py-0">
         <img
           alt="LinkedIn logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
-          height="20rem"
-          className="d-inline-block align-self-start"
+          src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Wordmark-Black-Logo.wine.svg"
+          height="50rem"
         />
-        <p>© 2021</p>
+        <span className="font-weight-lighter pl-2">© 2021</span>
       </li>
-      <li class="list-group-item">About</li>
-      <li class="list-group-item">Acessibility</li>
-      <li class="list-group-item">User Agreement</li>
-      <li class="list-group-item">Privacy Policy</li>
-      <li class="list-group-item">Cookie Policy</li>
-      <li class="list-group-item">Copyright Policy</li>
-      <li class="list-group-item">Brand Policy</li>
-      <li class="list-group-item">Guest Controls</li>
-      <li class="list-group-item">Community Guidelines</li>
-      <li class="list-group-item">
+
+      <li className="list-group-item px-2 py-1">
+        <a href="/">About</a>
+      </li>
+
+      <li className="list-group-item px-2 py-1">
+        <a href="/">Acessibility</a>
+      </li>
+      <li className="list-group-item px-2 py-1">
+        <a href="/">User Agreement</a>
+      </li>
+      <li className="list-group-item px-2 py-1">
+        <a href="/">Privacy Policy</a>
+      </li>
+      <li className="list-group-item px-2 py-1">
+        <a href="/">Cookie Policy</a>
+      </li>
+      <li className="list-group-item px-2 py-1">
+        <a href="/">Copyright Policy</a>
+      </li>
+      <li className="list-group-item px-2 py-1">
+        <a href="/">Brand Policy</a>
+      </li>
+      <li className="list-group-item px-2 py-1">
+        <a href="/">Guest Controls</a>
+      </li>
+      <li className="list-group-item px-2 py-1">
+        <a href="/">Community Guidelines</a>
+      </li>
+      <li className="list-group-item px-2 py-1">
         <Dropdown>
           <Dropdown.Toggle variant="light" id="dropdown-basic">
-            Dropdown Button
+            Language
+            <icon className="pl-2" aria-hidden="true">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                preserveAspectRatio="xMinYMin meet"
+                focusable="false"
+              >
+                <path
+                  d="M8 9l5.93-4L15 6.54l-6.15 4.2a1.5 1.5 0 01-1.69 0L1 6.54 2.07 5z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </icon>
           </Dropdown.Toggle>
 
           <Dropdown.Menu>
-            <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-            <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-            <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+            <Dropdown.Item href="#/action-1">English(English)</Dropdown.Item>
+            <Dropdown.Item href="#/action-2">Portuguese(Brazil)</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Bangla(Bangladesh)</Dropdown.Item>
+            <Dropdown.Item href="#/action-3">Armenia(Armenian)</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
       </li>

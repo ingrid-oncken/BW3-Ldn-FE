@@ -85,3 +85,35 @@ footer > .footer {
 #welcome-form {
   margin-bottom: 8%;
 }
+
+#welcome-footer-ul-horizontal {
+  align-items: center;
+  display: flex;
+}
+
+#welcome-footer-ul-horizontal > li,
+#welcome-footer-ul-horizontal > li > span {
+  border: none;
+  font-size: 0.6rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+#welcome-footer-ul-horizontal #dropdown-basic {
+  background-color: transparent;
+  border: none;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #666666;
+}
+
+#welcome-footer-ul-horizontal > li > a {
+  color: #666666;
+}
+#welcome-footer-ul-horizontal > li > a:hover {
+  color: #0a66c2;
+}
+
+#welcome-footer-ul-horizontal .dropdown-toggle::after {
+  content: none;
+}
