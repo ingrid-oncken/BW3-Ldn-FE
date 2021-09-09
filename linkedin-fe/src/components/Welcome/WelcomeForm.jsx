@@ -3,10 +3,7 @@ import { Button, Container, Row } from "react-bootstrap"
 
 const WelcomeForm = () => (
   <Container>
-    {/* <Row>
-      <h1>Welcome to your professional community</h1>
-    </Row> */}
-    <Row>
+    <Row className="row-cols-1 row-cols-lg-2">
       <h1 className="welcome_h1 p-2 d-none d-md-block display-4 text-left font-weight-light">
         Welcome to your professional community
       </h1>
@@ -21,13 +18,8 @@ const WelcomeForm = () => (
                     to your professional community"
         src="https://static-exp1.licdn.com/sc/h/dxf91zhqd2z6b0bwg85ktm5s4"
       />
-      <img
-        className="welcome-ilustration-mobile d-block d-lg-none"
-        alt="Welcome to your professional community"
-        src="https://static-exp1.licdn.com/sc/h/d58zfe6h3ycgq5l1ccjpkrtdn"
-      ></img>
     </Row>
-    <Row>
+    <Row className="row-cols-1 row-cols-lg-3">
       <div id="welcome-div-btn" className="d-grid gap-6 btn-group-vertical">
         <Button
           className="welcome-btns mt-4 py-3 rounded-lg border border-black-50 bg-white text-left"
@@ -90,6 +82,11 @@ const WelcomeForm = () => (
           </a>
         </Button>
       </div>
+      <img
+        className="welcome-ilustration-mobile d-block d-lg-none"
+        alt="Welcome to your professional community"
+        src="https://static-exp1.licdn.com/sc/h/d58zfe6h3ycgq5l1ccjpkrtdn"
+      ></img>
     </Row>
   </Container>
 )
