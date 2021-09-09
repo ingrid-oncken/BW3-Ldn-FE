@@ -90,46 +90,46 @@ const LnFooter = () => (
           <h6 className="font-weight-bold">Directories</h6>
           <ul className="welcome-footer-ul pl-0">
             <li className="welcome-footer-li">
-              <a href="/">Sign Up</a>
+              <a href="/">Members</a>
             </li>
             <li>
-              <a href="/">Help Center</a>
+              <a href="/">Jobs</a>
             </li>
             <li>
-              <a href="/">About</a>
+              <a href="/">Companies</a>
             </li>
             <li>
-              <a href="/">Press</a>
+              <a href="/">Salaries</a>
             </li>
             <li>
-              <a href="/">Blog</a>
+              <a href="/">Featured</a>
             </li>
             <li>
-              <a href="/">Careers</a>
+              <a href="/">Learning</a>
             </li>
             <li>
-              <a href="/">Developers</a>
+              <a href="/">Posts</a>
             </li>
             <li>
-              <a href="/">Developers</a>
+              <a href="/">Articles</a>
             </li>
             <li>
-              <a href="/">Developers</a>
+              <a href="/">Schools</a>
             </li>
             <li>
-              <a href="/">Developers</a>
+              <a href="/">News</a>
             </li>
             <li>
-              <a href="/">Developers</a>
+              <a href="/">News Letters</a>
             </li>
             <li>
-              <a href="/">Developers</a>
+              <a href="/">Services</a>
             </li>
             <li>
-              <a href="/">Developers</a>
+              <a href="/">Interview Prep</a>
             </li>
             <li>
-              <a href="/">Developers</a>
+              <a href="/">Products</a>
             </li>
           </ul>
         </Col>
