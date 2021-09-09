@@ -63,8 +63,10 @@ code {
   color: rgba(0, 0, 0, 0.9);
 }
 
-#welcome-footer-container {
+footer {
   background-color: #faf9f7;
+  z-index: -3;
+  position: absolute;
 }
 
 .welcome-footer-ul {
@@ -79,5 +81,5 @@ code {
 }
 
 #welcome-footer-container > div > div > ul > li > a:hover {
-  color: #0a66c2
-} 
+  color: #0a66c2;
+}
