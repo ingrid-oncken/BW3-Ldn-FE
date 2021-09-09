@@ -62,10 +62,10 @@ const LnCopyright = () => (
         </Dropdown.Toggle>
 
         <Dropdown.Menu>
-          <Dropdown.Item href="#/action-1">English(English)</Dropdown.Item>
+          <Dropdown.Item href="#/action-1">English(USA)</Dropdown.Item>
           <Dropdown.Item href="#/action-2">Portuguese(Brazil)</Dropdown.Item>
           <Dropdown.Item href="#/action-3">Bangla(Bangladesh)</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Armenia(Armenian)</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Armenian(Armenia)</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
     </li>

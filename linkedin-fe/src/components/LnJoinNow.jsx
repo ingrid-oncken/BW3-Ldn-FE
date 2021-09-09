@@ -6,7 +6,7 @@ const LnJoinNow = () => (
   <>
     <Container fluid style={{ backgroundColor: "#f3f2ef" }} className="pb-4">
       <Container>
-        <Row className="justify-content-center row-cols-1">
+        <Row className="justify-content-center row-cols-lg-1">
           <img
             alt="LinkedIn logo"
             src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
@@ -17,7 +17,7 @@ const LnJoinNow = () => (
             Make the most of your professional life
           </h1>
         </Row>
-        <Row className="justify-content-center row-cols-3">
+        <Row className="justify-content-center row-cols-lg-3">
           <Form id="joinnow-form" className="rounded-lg p-3">
             <Form.Group
               controlId="formBasicEmail"
