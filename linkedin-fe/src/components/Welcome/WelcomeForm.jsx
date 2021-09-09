@@ -2,7 +2,7 @@ import "../../index.css"
 import { Button, Container, Row } from "react-bootstrap"
 
 const WelcomeForm = () => (
-  <Container>
+  <Container id="welcome-form">
     <Row className="row-cols-1 row-cols-lg-2">
       <h1 className="welcome_h1 p-2 d-none d-md-block display-4 text-left font-weight-light">
         Welcome to your professional community

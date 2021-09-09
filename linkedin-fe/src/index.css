@@ -63,10 +63,8 @@ code {
   color: rgba(0, 0, 0, 0.9);
 }
 
-footer {
+footer > .footer {
   background-color: #faf9f7;
-  /* z-index: -3;
-  position: absolute; */
 }
 
 .welcome-footer-ul {
@@ -82,4 +80,8 @@ footer {
 
 #welcome-footer-container > div > div > ul > li > a:hover {
   color: #0a66c2;
+}
+
+#welcome-form {
+  margin-bottom: 8%;
 }
