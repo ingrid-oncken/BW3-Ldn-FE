@@ -20,7 +20,7 @@ const WelcomeForm = () => (
       />
     </Row>
     <Row className="row-cols-1 row-cols-lg-3">
-      <div id="welcome-div-btn" className="d-grid gap-6 btn-group-vertical">
+      <div className="d-grid gap-6 btn-group-vertical">
         <Button
           className="welcome-btns mt-4 py-3 rounded-lg border border-black-50 bg-white text-left"
           variant="outline-secondary"
