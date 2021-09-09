@@ -8,8 +8,7 @@ const LnNavbar = () => (
         <img
           alt="LinkedIn logo"
           src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
-          width="120"
-          height="60rem"
+          height="35rem"
           className="d-inline-block align-top"
         />
       </Navbar.Brand>
