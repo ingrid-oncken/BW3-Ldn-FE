@@ -16,8 +16,12 @@ const LnSignIn = () => (
     </Navbar>
     <Container>
       <Container>
-        <Row className="flex-column row-cols-lg-3 align-items-center">
-          <Form id="signin-form" className="rounded-lg p-3 text-left">
+        <Row className="flex-column align-items-center">
+          <Form
+            id="signin-form"
+            style={{ marginTop: "25%" }}
+            className="rounded-lg p-3 text-left"
+          >
             <h1>Sign In</h1>
             <h6>Stay updated on your professional world</h6>
             <Form.Group
