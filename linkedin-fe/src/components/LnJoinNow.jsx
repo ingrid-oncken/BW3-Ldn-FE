@@ -66,15 +66,27 @@ const LnJoinNow = () => (
               </span>
             </Form.Text>
             <Form.Group controlId="formBasicCheckbox"></Form.Group>
-            <Button variant="primary" type="submit" size="lg" block>
-              Submit
+            <Button
+              id="joinow-btn-agree"
+              variant="primary"
+              type="submit"
+              size="lg"
+              block
+            >
+              Agree & Join
             </Button>
 
             <Col className="my-2">
               <span className="text-dark">or</span>
             </Col>
 
-            <Button variant="outline-primary" type="submit" size="lg" block>
+            <Button
+              id="joinow-btn-google"
+              variant="outline-primary"
+              type="submit"
+              size="lg"
+              block
+            >
               <img
                 alt="login with google"
                 height="25rem"
