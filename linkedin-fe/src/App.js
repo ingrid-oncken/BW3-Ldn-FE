@@ -4,6 +4,7 @@ import LnNavbar from "./components/Navbar/LnNavbar"
 import WelcomeForm from "./components/Welcome/WelcomeForm"
 import LnFooter from "./components/Footer/LnFooter"
 import LnJoinNow from "./components/LnJoinNow"
+import LnSignIn from "./components/LnSignIn"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <LnNavbar />
       <WelcomeForm />
       <LnFooter /> */}
-      <LnJoinNow />
+      {/* <LnJoinNow /> */}
+      <LnSignIn />
     </div>
   )
 }

@@ -149,9 +149,24 @@ footer > .footer {
 
 #joinow-btn-agree {
   background-color: #0a66c2;
+  border-radius: 24px;
 }
 
 #joinow-btn-agree:hover {
   background-color: #004182 !important;
-  /* border-color: #0062cc; */
 }
+
+#signin-form {
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+}
+
+#signin-form a,
+#signin-new2ln > a {
+  color: #0a66c2 !important;
+}
+
+/* #signin-form > small > span > a 
+#root > div > div > div > div > div > a
+#signin-new2ln > a
+
+*/

@@ -4,7 +4,7 @@ import { Col, Container, Dropdown, Row } from "react-bootstrap"
 const LnCopyright = () => (
   <ul
     id="welcome-footer-ul-horizontal"
-    className="container list-group list-group-horizontal-md pr-0 d-flex justify-content-between"
+    className="container fixed-bottom list-group list-group-horizontal-md pr-0 d-flex justify-content-between"
   >
     <li className="list-group-item pl-0 py-0">
       <img
