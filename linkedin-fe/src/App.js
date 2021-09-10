@@ -12,8 +12,8 @@ function App() {
       {/* <LnNavbar />
       <WelcomeForm />
       <LnFooter /> */}
-      {/* <LnJoinNow /> */}
-      <LnSignIn />
+      <LnJoinNow />
+      {/* <LnSignIn /> */}
     </div>
   )
 }

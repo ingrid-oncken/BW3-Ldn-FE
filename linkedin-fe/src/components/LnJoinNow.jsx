@@ -4,7 +4,11 @@ import LnCopyright from "./Footer/LnCopyright"
 
 const LnJoinNow = () => (
   <>
-    <Container fluid style={{ backgroundColor: "#f3f2ef" }} className="pb-4">
+    <Container
+      fluid
+      style={{ backgroundColor: "#f3f2ef", height: "100vh" }}
+      className="pb-4"
+    >
       <Container>
         <Row className="justify-content-center row-cols-lg-1">
           <img
